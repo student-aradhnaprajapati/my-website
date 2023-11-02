@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(Event2.jpg);
+    background-position: center;
+    background-blend-mode:darken;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+.logo{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    float:left;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+.navlist ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.navlist ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 15px 20px;
+}
+.navlist ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    display: block;
+
+}
+/* .navlist ul li ul li{
+    display: none;
+}
+.navlist ul li:hover ul li{
+    display: block;
+} */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.navlist ul li a:hover{
+    color:white;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+
+.search {
+    padding: 2px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    }
+    
+    .content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-left: 350px;
+    }
+    
+    .content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    align-content: center;
+    margin-left: 250px;
+    }
+    
+     .reg_buttons {
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+    
+    }
+    
+     .btn{
+    text-decoration: none;
+    transition: .3s ease;
+    background: gray;
+    font-weight: bold;
+    width: 80px;
+    border-radius: 50px;
+    border-color: rgb(237, 228, 228);
+    height: 25px;
+    margin-left: 20px;
+    
+    
+    }
+    .btn:hover{
+        background:yellow;
+        
+    }
+    
+    
